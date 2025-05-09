@@ -28,7 +28,7 @@ export default defineConfig({
     baseURL: 'https://store.cpanel.net/index.php',
     browserName: 'chromium',
     trace: 'on-first-retry',
-    headless: false
+    headless: true
   },
 
   /* Configure projects for major browsers */
